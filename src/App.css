@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  color: blue;
+  background-color: white;
+}
+.board {
+  min-height: 50px;
+  width: 100%;
+  align-items: center;
+}
+.green-text {
+  color: green;
+}
+.red-text {
+  color: red;
+}
+.trans {
+  height: fit-content;
+  width: 90%;
+  background-color: white;
+}
+.box {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-div label {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 5px;
+}
+.form-div input {
+  width: 70%;
+  height: 20px;
+  border-radius: 5px;
+}
+.transaction-cont {
+  min-height: fit-content;
+}
+.green-board {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.red-board {
+  margin-bottom: 10px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  align-items: center;
+  width: 100%;
+}
+.fine-btn {
+  border: none;
+  height: 24px;
+  width: 80%;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
